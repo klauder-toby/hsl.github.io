@@ -1,0 +1,184 @@
+h1 {
+    text-align: center; 
+    text-transform : uppercase; 
+    color: khaki; 
+    background-color: darkslategray;
+    margin: 20px;
+    font-family: "Abril Fatface", serif; 
+}
+
+h2 {
+    color: khaki; 
+    font-family: "Abril Fatface", serif;
+}
+
+thead {
+    background-color: darkslategray;
+    color: khaki; 
+}
+
+table {
+    background-color: darkslategray;
+    width: 650px; 
+    margin: 0 auto; 
+    border: 2px solid khaki; 
+}
+
+td {
+    border-top: 1px solid khaki; 
+    color: rgb(160, 200, 127); 
+    padding: 10px; 
+    text-align: center; 
+}
+
+th {
+    background-color: khaki; 
+    color: darkslategray; 
+    padding: 5px; 
+}
+
+body {
+    background-color: darkslategray; 
+} 
+
+.container {
+    background-color: darkslategray; 
+    width: 650px; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+.pallets {
+    background-color: darkslategray; 
+    width: 650px; 
+    margin: auto; 
+    height: 350px; 
+    display: flex;            
+    flex-direction: column;   
+    justify-content: space-evenly; 
+    align-items: center;       /* Center children horizontally */
+}
+
+/* Hues */ 
+
+#blue-hue-1 {
+    background-color: hsl(180, 100%, 50%);
+}
+
+#blue-hue-2 {
+    background-color: hsl(200, 100%, 50%);
+}
+
+#blue-hue-3 {
+    background-color: hsl(220, 100%, 50%);
+}
+
+#red-hue-1 {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#red-hue-2 {
+    background-color: hsl(20, 100%, 50%);
+}
+
+#red-hue-3 {
+    background-color: hsl(40, 100%, 50%);
+}
+
+#green-hue-1 {
+    background-color: hsl(120, 100%, 50%);
+}
+
+#green-hue-2 {
+    background-color: hsl(140, 100%, 50%);
+}
+
+#green-hue-3 {
+    background-color: hsl(160, 100%, 50%);
+}
+
+/*  Saturation */ 
+
+#blue-sat-1 {
+    background-color: hsl(200, 100%, 50%);
+}
+
+#blue-sat-2 {
+    background-color: hsl(200, 80%, 50%);
+}
+
+#blue-sat-3 {
+    background-color: hsl(200, 60%, 50%);
+}
+
+#red-sat-1 {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#red-sat-2 {
+    background-color: hsl(0, 80%, 50%);
+}
+
+#red-sat-3 {
+    background-color: hsl(0, 60%, 50%);
+}
+
+#green-sat-1 {
+    background-color: hsl(120, 100%, 50%);
+}
+
+#green-sat-2 {
+    background-color: hsl(120, 80%, 50%);
+}
+
+#green-sat-3 {
+    background-color: hsl(120, 60%, 50%);
+}
+
+/*  Lightness */ 
+#blue-light-1 {
+    background-color: hsl(200, 100%, 50%); 
+}
+
+#blue-light-2 {
+    background-color: hsl(200, 100%, 70%); 
+}
+
+#blue-light-3 {
+    background-color: hsl(200, 100%, 90%); 
+}
+
+#red-light-1 {
+    background-color: hsl(0, 100%, 50%); 
+}
+
+#red-light-2 {
+    background-color: hsl(0, 100%, 70%); 
+}
+
+#red-light-3 {
+    background-color: hsl(0, 100%, 90%); 
+}
+
+#green-light-1 {
+    background-color: hsl(120, 100%, 50%); 
+}
+
+#green-light-2 {
+    background-color: hsl(120, 100%, 70%); 
+}
+
+#green-light-3 {
+    background-color: hsl(120, 100%, 90%); 
+}
+
+
+.color {
+    display: inline-block; 
+    width: 200px; 
+    height: 75%;  
+    border: 2px solid khaki;  /* Adjust height as needed */
+}
